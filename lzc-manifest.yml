@@ -1,0 +1,16 @@
+application:
+  subdomain: celestial-heroes
+  public_path:
+    - /
+  upstreams:
+    - location: /
+      backend: file:///lzcapp/pkg/content/
+  injects:
+    # Save data export/import uses native file pickers, which the store requires
+    # to route through the LazyCat cloud drive.
+    - id: open-save-chooser
+      on: browser
+      when:
+        - /*
+      do:
+        - src: file:///lzcapp/pkg/content/lazycat-injects/lzc-file-chooser-inject.js

@@ -1,0 +1,22 @@
+package: community.lazycat.app.celestial-heroes
+version: 1.0.0
+name: Celestial Heroes
+description: A 3D pachinko roguelike with three-hero teams, physics collisions and skill combos, themed on 108 Heroes
+min_os_version: 1.5.0
+homepage: https://github.com/coracoo/Celestial
+author: coracoo
+license: MIT
+locales:
+  zh:
+    name: 星阵归途
+    description: 3D 柏青哥娘化武将弹珠游戏，三将上阵、拉杆弹射、技能连携
+  zh_CN:
+    name: 星阵归途
+    description: 3D 柏青哥娘化武将弹珠游戏，三将上阵、拉杆弹射、技能连携
+  en:
+    name: Celestial Heroes
+    description: A 3D pachinko roguelike with three-hero teams, physics collisions and skill combos
+unsupported_platforms:
+  - ios
+  - android
+  - tvos
