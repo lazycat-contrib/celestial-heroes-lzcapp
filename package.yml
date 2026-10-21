@@ -1,5 +1,5 @@
 package: community.lazycat.app.celestial-heroes
-version: 1.0.2
+version: 1.0.3
 name: Celestial Heroes
 description: A 3D pachinko roguelike with three-hero teams, physics collisions and skill combos, themed on 108 Heroes
 min_os_version: 1.5.0
